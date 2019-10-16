@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".row_column_grid">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="enter no of rows for the grid"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/rows"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="rows"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="enter no of column for the grid"
+        android:textSize="20dp"
+        android:layout_marginTop="40dp"/>
+    <EditText
+        android:id="@+id/cols"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="cols"/>
+
+    <Button
+        android:id="@+id/allocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dynamic Allocation" />
+    <Button
+        android:id="@+id/view_products"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Products"
+        />
+
+
+    <Button
+        android:id="@+id/signout"
+        android:layout_width="match_parent"
+        android:text="Sign out"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="@color/colorPrimaryDark"/>
+
+</LinearLayout>

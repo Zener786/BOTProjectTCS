@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+
+    android:layout_height="fill_parent">
+
+    <CheckBox
+        android:text="jeans"
+        android:id="@+id/jeans1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </CheckBox>
+
+    <CheckBox
+        android:text="tops"
+        android:id="@+id/tops1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </CheckBox>
+
+    <CheckBox
+        android:text="jewellery"
+        android:id="@+id/jewellery1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </CheckBox>
+    <CheckBox
+        android:text="shoes"
+        android:id="@+id/shoes1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </CheckBox>
+
+    <CheckBox
+        android:text="skirts"
+        android:id="@+id/skirts1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </CheckBox>
+
+    <CheckBox
+        android:text="watch"
+        android:id="@+id/watch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </CheckBox>
+    <CheckBox
+        android:text="ethnic"
+        android:id="@+id/ethnic1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </CheckBox>
+
+    <CheckBox
+        android:text="nail paint"
+        android:id="@+id/nailpaint1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </CheckBox>
+
+    <CheckBox
+        android:text="crockery"
+        android:id="@+id/crockery1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </CheckBox>
+    <Button
+        android:id="@+id/signout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:text="Home Page"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent" />
+    
+
+</LinearLayout>
